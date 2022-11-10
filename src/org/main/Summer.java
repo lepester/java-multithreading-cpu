@@ -1,3 +1,5 @@
+package org.main;
+
 public class Summer implements Runnable {
     private final int[] a;
     private final int min;

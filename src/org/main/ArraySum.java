@@ -1,3 +1,5 @@
+package org.main;
+
 import java.util.Random;
 import java.util.concurrent.atomic.LongAdder;
 
