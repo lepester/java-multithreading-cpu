@@ -1,4 +1,4 @@
-package org.main;
+package main;
 
 public class Summer implements Runnable {
     private final int[] a;
