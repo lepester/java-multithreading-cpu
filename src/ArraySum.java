@@ -26,7 +26,7 @@ public class ArraySum {
 
 
     // Computes the total sum of all elements of the given array.
-    // It will can make use of as many cores/CPUs as you want to give it.
+    // It can make use of as many cores/CPUs as you want to give it.
     public static int sumOfAllElementsAnyThread(int[] a, int threadCount) {
         int len = (int) Math.ceil(1.0 * a.length / threadCount);
         Summer[] summers = new Summer[threadCount];
@@ -51,7 +51,7 @@ public class ArraySum {
         return total;
     }
 
-    // helper method to compute sum of array a, indexes [min .. max).
+    // helper method to compute sum of array, indexes [min .. max).
     public static int sumRange(int[] a, int min, int max) {
         int result = 0;
         for (int i = min; i < max; i++) {
